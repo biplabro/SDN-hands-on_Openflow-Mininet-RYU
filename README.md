@@ -6,6 +6,8 @@ This work & codes are derived from the course titled [SDN Crash Course (Openflow
 ##### Lab Setup used
 1. [Virtualbox 6.1](https://www.virtualbox.org/wiki/Changelog-6.1)
 2. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)
+3. [ReMarkable 1.87](https://remarkableapp.github.io/linux/download.html)
+4. [GitKraken 7.3.1.](https://www.gitkraken.com/download) Free, not FOSS 
 
 Function | Tool
 -------- | --------------
