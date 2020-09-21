@@ -9,6 +9,8 @@ This work & codes are derived from the course titled [SDN Crash Course (Openflow
 3. [ReMarkable 1.87](https://remarkableapp.github.io/linux/download.html)
 4. [GitKraken 7.3.1.](https://www.gitkraken.com/download) Free, not FOSS 
 
+The main course content demonstrates & functions on Python2.7.X, this documentation is an attempt to technology survey & porting the functionalities of SDN to Python3.X.X
+
 Function | Tool
 -------- | --------------
 OS | Ubuntu 18.04 Desktop
