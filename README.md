@@ -26,6 +26,7 @@ A simplified guide to #licensing https://exygy.com/blog/which-license-should-i-u
 
 Credits: 
 [Dr. Bhargab B. Bhattacharya](https://www.isical.ac.in/~bhargab/),
+[Dr. Sudip Misra](https://cse.iitkgp.ac.in/~smisra/),
 [Dr. Nurzaman Ahmed](https://nurzaman7.github.io/),
 [kNetSolutions India](https://knetsolutions.in/),
 [Udemy](www.udemy.com)
