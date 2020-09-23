@@ -29,4 +29,4 @@ Credits:
 [Dr. Sudip Misra](https://cse.iitkgp.ac.in/~smisra/),
 [Dr. Nurzaman Ahmed](https://nurzaman7.github.io/),
 [kNetSolutions India](https://knetsolutions.in/),
-[Udemy](https://www.udemy.com/),
+[Udemy](https://about.udemy.com/),
