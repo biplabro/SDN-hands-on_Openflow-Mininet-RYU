@@ -4,10 +4,11 @@ SDN hands-on resources
 
 This work & codes are derived from the course titled [SDN Crash Course (Openflow, Mininet, RYU) Practical/Handson.](https://www.udemy.com/course/beginners-sdn-course-with-ryu-controller-practical-handson/)
 ##### Lab Setup used
-1. [Virtualbox](https://www.virtualbox.org/wiki/Changelog-6.1) [v6.1 Direct Download](https://download.virtualbox.org/virtualbox/6.1.14/virtualbox-6.1_6.1.14-140239~Ubuntu~bionic_amd64.deb)
-2. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/) [v18.04.3 Direct Download](https://sourceforge.net/projects/linuxvmimages/files/VirtualBox/U/18.04/Ubuntu_18.04.3_VB.zip/download)
-3. [ReMarkable 1.87](https://remarkableapp.github.io/linux/download.html)
-4. [GitKraken 7.3.1.](https://www.gitkraken.com/download) Free, not FOSS 
+1. [Virtualbox](https://www.virtualbox.org/wiki/Changelog-6.1), ([v6.1 Direct Download](https://download.virtualbox.org/virtualbox/6.1.14/virtualbox-6.1_6.1.14-140239~Ubuntu~bionic_amd64.deb))
+2. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/), ([v18.04.3 Direct Download](https://sourceforge.net/projects/linuxvmimages/files/VirtualBox/U/18.04/Ubuntu_18.04.3_VB.zip/download))
+3. [ReMarkable Markdown Editor](https://remarkableapp.github.io/linux/download.html), ([v1.87 Direct Download](https://remarkableapp.github.io/files/remarkable_1.87_all.deb))
+4. [GitKraken 7.3.1.](https://www.gitkraken.com/download) Free, not FOSS.
+
 
 The main course content demonstrates & functions using Python2.7.x, this documentation is an attempt to technology survey & porting the functionalities of SDN using Python3.7.x
 
