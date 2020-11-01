@@ -6,6 +6,8 @@
 Run:
 sudo python traditional_switch.py
 
+Reference: [ARP Demo](https://github.com/biplabro/SDN-hands-on_Openflow-Mininet-RYU/blob/master/Notes%20%26%20Experiments/06.%20Address%20Resolution%20(NDP%2C%20ARP).md)
+
 Testing:
 sudo ovs-vsctl show
 sudo ovs-appctl fdb/show s1
