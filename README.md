@@ -29,6 +29,6 @@ Credits:
 [Dr. Bhargab B. Bhattacharya](https://www.isical.ac.in/~bhargab/),
 [Dr. Sudip Misra](https://cse.iitkgp.ac.in/~smisra/),
 [Dr. Nurzaman Ahmed](https://nurzaman7.github.io/),
-[Kounteya Sarkar](Kounteya Sarkar),
+[Kounteya Sarkar](https://www.researchgate.net/profile/Kounteya_Sarkar),
 [kNetSolutions India](https://knetsolutions.in/),
 [Udemy](https://about.udemy.com/),
