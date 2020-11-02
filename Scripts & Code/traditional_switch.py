@@ -20,9 +20,9 @@ from mininet.log import setLogLevel
 from mininet.cli import CLI
 from mininet.node import OVSSwitch, Controller, RemoteController
 
-class SingleSwitchTopo(Topo):                                                       ### Creating a class named SingleSwitchTopo
+class SingleSwitchTopo(Topo):                                                       ### Declaring a class named SingleSwitchTopo
     "Single switch connected to n hosts."
-    def build(self):
+    def build(self):                                                                ### creating method
         s1 = self.addSwitch('s1', failMode='standalone')
         h1 = self.addHost('h1', mac="00:00:00:00:00:01", ip="192.168.1.1/24")       ### creating virtual hosts assigning mac, ip/subnet mask
         h2 = self.addHost('h2', mac="00:00:00:00:00:02", ip="192.168.1.2/24")
@@ -35,7 +35,7 @@ class SingleSwitchTopo(Topo):                                                   
 
 if __name__ == '__main__':
     setLogLevel('info')
-    topo = SingleSwitchTopo()                                                       ### Start single switch Topology, no SDN controller used
+    topo = SingleSwitchTopo()                                                       ### Object Created, Start single switch Topology, no SDN controller used
     c1 = RemoteController('c1', ip='127.0.0.1')                                     ### Remote controller set to 'localhost'
     net = Mininet(topo=topo, controller=c1)
     net.start()
