@@ -1,4 +1,4 @@
-#!/usr/bin/python       ### HashBang the path to compiler [1] 
+#!/usr/bin/python                                                                   ### HashBang the path to compiler [1] 
 
 
 """Traditional Topology
@@ -15,13 +15,13 @@ sudo ovs-ofctl -O OpenFlow13 dump-flows s1
 
 """
 
-from mininet.topo import Topo          ### from <Library> import <module> [2]
+from mininet.topo import Topo                                                       ### from <Library> import <module> [2]
 from mininet.net import Mininet
 from mininet.log import setLogLevel
 from mininet.cli import CLI
 from mininet.node import OVSSwitch, Controller, RemoteController
 
-class SingleSwitchTopo(Topo):          ### Creating a class named SingleSwitchTopo
+class SingleSwitchTopo(Topo):                                                       ### Creating a class named SingleSwitchTopo
     "Single switch connected to n hosts."
     def build(self):
         s1 = self.addSwitch('s1', failMode='standalone')
@@ -29,15 +29,15 @@ class SingleSwitchTopo(Topo):          ### Creating a class named SingleSwitchTo
         h2 = self.addHost('h2', mac="00:00:00:00:00:02", ip="192.168.1.2/24")
         h3 = self.addHost('h3', mac="00:00:00:00:00:03", ip="192.168.1.3/24")
         h4 = self.addHost('h4', mac="00:00:00:00:00:04", ip="192.168.1.4/24")
-        self.addLink(h1, s1)            ### Link node to the network
+        self.addLink(h1, s1)                                                        ### Link node to the network
         self.addLink(h2, s1)
         self.addLink(h3, s1)
         self.addLink(h4, s1)
 
 if __name__ == '__main__':
     setLogLevel('info')
-    topo = SingleSwitchTopo()           ### Start single switch Topology, no SDN controller used
-    c1 = RemoteController('c1', ip='127.0.0.1')     ### Remote controller set to 'localhost'
+    topo = SingleSwitchTopo()                                                       ### Start single switch Topology, no SDN controller used
+    c1 = RemoteController('c1', ip='127.0.0.1')                                     ### Remote controller set to 'localhost'
     net = Mininet(topo=topo, controller=c1)
     net.start()
     #net.pingAll()
