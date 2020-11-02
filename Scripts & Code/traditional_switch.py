@@ -1,6 +1,5 @@
 #!/usr/bin/python                                                                   ### HashBang the path to compiler [1] 
 
-
 """Traditional Topology
 
 Run:
