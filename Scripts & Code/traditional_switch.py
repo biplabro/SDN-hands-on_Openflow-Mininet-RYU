@@ -40,7 +40,7 @@ if __name__ == '__main__':
     net = Mininet(topo=topo, controller=c1)
     net.start()
     #net.pingAll()
-    CLI(net)
+    CLI(net)                                                                        ### run mininet topology with given parameters in line 40
     net.stop()
 
 """
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 ```
 [1] http://stanford.edu/~jainr/basics.py#:~:text=%23!%2Fusr%2Fbin%2Fenv%20python,also%20called%20the%20%22hashbang%22.
 [2] https://stackabuse.com/creating-and-importing-modules-in-python/
-[3] 
+[3] https://conferences.sigcomm.org/sigcomm/2014/doc/slides/mininet-intro.pdf
 [4] 
 [5] 
 [6] 
