@@ -8,7 +8,7 @@ This work & codes are derived from the course titled [SDN Crash Course (Openflow
 2. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/), ([v18.04.x images Download](https://www.linuxvmimages.com/images/ubuntu-1804/))
 3. [ReMarkable Markdown Editor](https://remarkableapp.github.io/linux/download.html), ([v1.87 Direct Download](https://remarkableapp.github.io/files/remarkable_1.87_all.deb))
 4. [Atom Editor](https://atom.io/), ([v1.53.0 Direct Download](https://github.com/atom/atom/releases/download/v1.53.0/atom-amd64.deb))
-5. [GitKraken 7.3.1.](https://www.gitkraken.com/download) Free, not FOSS.
+5. [GitKraken 7.4.1.](https://www.gitkraken.com/download) Free, not FOSS.
 
 
 The main course content demonstrates & functions using Python2.7.x, this documentation is an attempt to technology survey & porting the functionalities of SDN using Python3.7.x
