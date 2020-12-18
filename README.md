@@ -26,7 +26,7 @@ All the tools & software used in this are possible due to the generous contribut
 
 A simplified guide to #licensing https://exygy.com/blog/which-license-should-i-use-mit-vs-apache-vs-gpl/
 
-Acknowledgements: 
+**Acknowledgements:**
 [Dr. Bhargab B. Bhattacharya](https://www.isical.ac.in/~bhargab/),
 [Dr. Sudip Misra](https://cse.iitkgp.ac.in/~smisra/),
 [Dr. Nurzaman Ahmed](https://nurzaman7.github.io/),
